@@ -1,0 +1,51 @@
+body{
+    /* overflow: hidden; */
+}
+.title{
+    position: relative;
+    width: 1000px;
+    margin: auto 0;
+}
+#log{
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.image{
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 2px;
+    border: 2px solid #c0c0c0;
+    z-index: 0;
+}
+
+.image-selected{
+    border: 2px solid #000;
+    background-color: white;
+}
+
+.image > img {
+    height: 100%;
+}
+
+.image-selected > img{
+    opacity: .5;
+}
+
+.image-magnified{
+    z-index:1;  
+  }
+
+.image-magnified > img {
+    height: 400px;
+    width:  600px;
+    margin-left: -150px;
+    margin-right: -100px;
+    opacity: .95;
+}
+hr{
+    clear: both;
+}
