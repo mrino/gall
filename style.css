@@ -2,9 +2,8 @@ body{
     /* overflow: hidden; */
 }
 .title{
-    position: relative;
     width: 1000px;
-    margin: auto 0;
+    margin: 0 auto;
 }
 #log{
     /* display: inline-block; */
